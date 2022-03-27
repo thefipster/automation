@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F11A4A6-843C-4DE4-8182-46D9091C1A76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "feeds", "feeds", "{96BF15FD-50E9-47F5-81AA-374206A687C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheFipster.Automation.Feed.Netatmo", "src\feeds\TheFipster.Automation.Feed.Netatmo\TheFipster.Automation.Feed.Netatmo.csproj", "{B8B31F32-09C3-4962-A05F-D0C4E572FAAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ingest", "ingest", "{E827A21F-ABF6-4586-B888-76C3F0712078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFipster.Automation.Ingest.MqttListener", "src\ingest\TheFipster.Automation.Ingest.MqttListener\TheFipster.Automation.Ingest.MqttListener.csproj", "{C12EA61B-6D77-46EF-B022-36295E2EFF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFipster.Automation.Ingest.HttpListener", "src\ingest\TheFipster.Automation.Ingest.HttpListener\TheFipster.Automation.Ingest.HttpListener.csproj", "{6A315181-3CEA-44B2-A8D9-9A16555F27DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B31F32-09C3-4962-A05F-D0C4E572FAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B31F32-09C3-4962-A05F-D0C4E572FAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B31F32-09C3-4962-A05F-D0C4E572FAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B31F32-09C3-4962-A05F-D0C4E572FAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12EA61B-6D77-46EF-B022-36295E2EFF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12EA61B-6D77-46EF-B022-36295E2EFF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12EA61B-6D77-46EF-B022-36295E2EFF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12EA61B-6D77-46EF-B022-36295E2EFF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A315181-3CEA-44B2-A8D9-9A16555F27DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A315181-3CEA-44B2-A8D9-9A16555F27DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A315181-3CEA-44B2-A8D9-9A16555F27DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A315181-3CEA-44B2-A8D9-9A16555F27DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96BF15FD-50E9-47F5-81AA-374206A687C0} = {7F11A4A6-843C-4DE4-8182-46D9091C1A76}
+		{B8B31F32-09C3-4962-A05F-D0C4E572FAAC} = {96BF15FD-50E9-47F5-81AA-374206A687C0}
+		{E827A21F-ABF6-4586-B888-76C3F0712078} = {7F11A4A6-843C-4DE4-8182-46D9091C1A76}
+		{C12EA61B-6D77-46EF-B022-36295E2EFF51} = {E827A21F-ABF6-4586-B888-76C3F0712078}
+		{6A315181-3CEA-44B2-A8D9-9A16555F27DC} = {E827A21F-ABF6-4586-B888-76C3F0712078}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1EB3D58-5638-46B8-AFE9-7FE670EB48AE}
+	EndGlobalSection
+EndGlobal
