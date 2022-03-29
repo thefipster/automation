@@ -11,9 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheFipster.Automation.Feed.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ingest", "ingest", "{E827A21F-ABF6-4586-B888-76C3F0712078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFipster.Automation.Ingest.MqttListener", "src\ingest\TheFipster.Automation.Ingest.MqttListener\TheFipster.Automation.Ingest.MqttListener.csproj", "{C12EA61B-6D77-46EF-B022-36295E2EFF51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheFipster.Automation.Ingest.MqttListener", "src\ingest\TheFipster.Automation.Ingest.MqttListener\TheFipster.Automation.Ingest.MqttListener.csproj", "{C12EA61B-6D77-46EF-B022-36295E2EFF51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFipster.Automation.Ingest.HttpListener", "src\ingest\TheFipster.Automation.Ingest.HttpListener\TheFipster.Automation.Ingest.HttpListener.csproj", "{6A315181-3CEA-44B2-A8D9-9A16555F27DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheFipster.Automation.Ingest.HttpListener", "src\ingest\TheFipster.Automation.Ingest.HttpListener\TheFipster.Automation.Ingest.HttpListener.csproj", "{6A315181-3CEA-44B2-A8D9-9A16555F27DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab", "lab", "{DAAD3C84-5881-4CD6-82B9-43253FBC55A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "masstransit", "masstransit", "{338F7144-78FB-48D4-9340-8CE3692E656D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheFipster.Lab.Masstransit.ServiceA", "lab\masstransit\TheFipster.Lab.Masstransit.ServiceA\TheFipster.Lab.Masstransit.ServiceA.csproj", "{C5D23AC4-606F-4A82-8287-AB66D5E82F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFipster.Lab.Masstransit.ServiceB", "lab\masstransit\TheFipster.Lab.Masstransit.ServiceB\TheFipster.Lab.Masstransit.ServiceB.csproj", "{1AA1CC4E-B0F0-4EA0-844B-671F30CF209D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,14 @@ Global
 		{6A315181-3CEA-44B2-A8D9-9A16555F27DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A315181-3CEA-44B2-A8D9-9A16555F27DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A315181-3CEA-44B2-A8D9-9A16555F27DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D23AC4-606F-4A82-8287-AB66D5E82F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D23AC4-606F-4A82-8287-AB66D5E82F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D23AC4-606F-4A82-8287-AB66D5E82F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D23AC4-606F-4A82-8287-AB66D5E82F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA1CC4E-B0F0-4EA0-844B-671F30CF209D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA1CC4E-B0F0-4EA0-844B-671F30CF209D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA1CC4E-B0F0-4EA0-844B-671F30CF209D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA1CC4E-B0F0-4EA0-844B-671F30CF209D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +59,9 @@ Global
 		{E827A21F-ABF6-4586-B888-76C3F0712078} = {7F11A4A6-843C-4DE4-8182-46D9091C1A76}
 		{C12EA61B-6D77-46EF-B022-36295E2EFF51} = {E827A21F-ABF6-4586-B888-76C3F0712078}
 		{6A315181-3CEA-44B2-A8D9-9A16555F27DC} = {E827A21F-ABF6-4586-B888-76C3F0712078}
+		{338F7144-78FB-48D4-9340-8CE3692E656D} = {DAAD3C84-5881-4CD6-82B9-43253FBC55A2}
+		{C5D23AC4-606F-4A82-8287-AB66D5E82F6A} = {338F7144-78FB-48D4-9340-8CE3692E656D}
+		{1AA1CC4E-B0F0-4EA0-844B-671F30CF209D} = {338F7144-78FB-48D4-9340-8CE3692E656D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1EB3D58-5638-46B8-AFE9-7FE670EB48AE}
